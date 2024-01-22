@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Tags related to table in HTML:
+        <table></table>
+        <thead></thead> => will contain <th></th> tag for heading
+        <tbody></tbody>
+        <tfoot></tfoot> => Reprsent total or summary of the entire table
+        <tr></tr>
+        <td></td>
+        <th></th> -->
+
+        <!-- table>(thead>(th*4))+(thbody>(tr>td*4)*4) -->
+        <table border="1">
+            <thead>
+                <th>Student ID</th>
+                <th>Student Name</th>
+                <th>Gender</th>
+                <th>Age</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1234</td>
+                    <td colspan="3">Bill</td>
+                    <!-- <td rowspan="2">Male</td>
+                    <td>17</td> -->
+                </tr>
+                <tr>
+                    <td>1235</td>
+                    <td>John</td>
+                    <td>Male</td>
+                    <td>18</td>
+                </tr>
+                <tr>
+                    <td>1236</td>
+                    <td>Olivia</td>
+                    <td rowspan="2">Female</td>
+                    <td>17</td>
+                </tr>
+                <tr>
+                    <td>1237</td>
+                    <td>Mia</td>
+                    <!-- <td>Female</td> -->
+                    <td>19</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br/>
+
+        <table border="1">
+            <tr>
+                <td>Column 1</td>
+                <td>Column 2</td>
+                <td>Column 3</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Row-1 cell-1</td>
+                <td>Row-1 cell-2</td>
+                <td>Row-1 cell-3</td>
+            </tr>
+            <tr>
+                <td>Row-2 cell-2</td>
+                <td>Row-2 cell-3</td>
+            </tr>
+            <tr>
+                <td colspan="3">Row-3 cell-1</td>
+            </tr>
+        </table>
+
+        <br/>
+
+        <!-- table>(thead>th*5)+(thbody>(tr>td*5)*4)+(tfoot>tr>td*2)
+        -->
+        <table border="1">
+            <thead>
+                <th>No.</th>
+                <th>Full Name</th>
+                <th>Position</th>
+                <th>Salary</th>
+                <th>Type</th>
+            </thead>
+            <thbody>
+                <tr>
+                    <td>1</td>
+                    <td>Bill Gates</td>
+                    <td>Founder Microsoft</td>
+                    <td>$1000</td>
+                    <td rowspan="4">Company Founder</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Steve Jobs</td>
+                    <td>Founder Apple</td>
+                    <td>$1200</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Larry Page</td>
+                    <td>Founder Google</td>
+                    <td>$1100</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Mark</td>
+                    <td>Founder Facebook</td>
+                    <td>$1300</td>
+                </tr>
+            </thbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Total Expense:</td>
+                    <td>$4600</td>
+                </tr>
+            </tfoot>
+        </table>
+</body>
+</html>

@@ -1,0 +1,147 @@
+@import url(./style-2.css);
+@import url(./style-3.css);
+
+.navBar {
+    color: white;
+    height: 60px;
+    background-color: #0f1111;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* @media (max-width : 1200px) {
+    .navBar {
+        background-color: #0f1111;
+        flex-direction : column;
+        align-items: normal;
+        justify-content: flex-start;
+        height: 600px;
+        width: 900px;
+    }
+} */
+
+#itemHover {
+    border: 0px solid #0f1111;
+}
+
+#itemHover:hover {
+    border: 1px solid white;
+}
+
+.amazonLogo_url {
+    width: 90px;
+    height: 50px;
+    color: white;
+}
+
+.serviceLocation {
+    display: flex;
+    height: 50px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#destinationPointer {
+    padding-left: 13px;
+}
+
+.searchProducts {
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+
+.searchProducts:active {
+    border: 5px solid orange;
+}
+
+.amazonProducts {
+    width: 50px;
+    height: 42px;
+    background-color: #e6e6e6;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border: none;
+}
+
+.userChoiceProduct {
+    width: 800px;
+    height: 40px;
+    border: none;
+}
+
+.searchIcon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 42px;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    background-color: orange;
+    font-size: 1.2rem;
+}
+
+.signIn_orders {
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    justify-content: center;
+}
+.upperFont {
+    font-size: 12px;
+    color: #CCCCCC;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.lowerFont {
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.location {
+    display: flex;
+    align-items: flex-end;
+    border: 1px solid orange;
+    width: 60px;
+    height: 40px;
+    padding-bottom: 12px;
+}
+
+#countryList {
+    font-size: 1.1rem;
+    font-weight: 700;
+    width: 40px;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+#globeIcon {
+    font-size: 1.1rem;
+}
+
+.cart {
+    height: 50px;
+    width: 84px;
+    display: flex;
+    border: 1px solid green;
+    justify-content: center;
+    align-items: center;
+}
+
+#cartIcon {
+    font-size: 1.7rem;
+}
+
+.cartFont {
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 18px;
+}
+
+

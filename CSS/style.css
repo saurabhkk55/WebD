@@ -1,0 +1,28 @@
+* {
+    font-family: 'Times New Roman';
+}
+
+#id-1 {
+    background-color: blue;
+}
+
+.class-1 {
+    color: red;
+}
+
+button {
+    background-color: green;
+}
+
+.class-2 {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#id-2 {
+    font-size: 25px;
+}
+
+#id-3 {
+    font-size: 10px;
+}

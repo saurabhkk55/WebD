@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        .top-right-text {
+            position: absolute;
+            top: 0;
+            right: 0;
+            margin: 10px;
+        }
+        .center-text {
+            font-size: 36px;
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .search-bar {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .circular-icon {
+            width: 50px;
+            height: 50px;
+            background-color: #3498db; /* Example background color */
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 10px;
+        }
+
+        .circular-icon img {
+            width: 80%; /* Adjust the size of the icon image */
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-right-text">Your text here</div>
+    <nav> 
+        <a href="#">Home</a> | 
+        <a href="#">Interview</a> | 
+        <a href="#">Languages</a> | 
+        <a href="#">Data Structure</a> | 
+        <a href="#">Algorithm</a> 
+    </nav> 
+    <div class="center-text">Your big text here</div>
+
+    <!-- Circular icon -->
+    <div class="circular-icon">
+        <!-- You can use an image or an icon font here -->
+        <img src="path/to/your/icon.png" alt="Icon">
+    </div>
+
+    <!-- Search bar -->
+    <div class="search-bar">
+        <label for="search">Search: </label>
+        <input type="text" id="search" name="search" placeholder="Enter your search query">
+        <button type="submit">Search</button>
+    </div>
+</body>
+</html>

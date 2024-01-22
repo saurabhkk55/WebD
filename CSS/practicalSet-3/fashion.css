@@ -1,0 +1,33 @@
+/* div {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border-radius: 50%;
+} */
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.navBar {
+    height: 60px;
+    background-color: black;
+}
+
+a {
+    margin-right: 200px;
+    color: white;
+    text-decoration: none;
+}
+
+#homeLink {
+    font-size: 25px;
+    color: #f08804;
+}
+
+
+button {
+    background-color: #f08804;
+    padding: 2px;
+}

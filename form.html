@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- <form action=""></form> => To create a form
+    <input type="text"> => take input in variours form: text, radio-button, checkbox, calender, etc.
+    <label for=""></label> => create label for the input for user simplicity, screen reader, labes's for attribute should be equal to inputs' id and vice-versa -->
+
+    <form>
+        <label for="1">Enter name: </label>
+        <input type="text" id="1">
+        
+        <br/>
+        <br/>
+        
+        <label for="2">Enter age: </label>
+        <input type="text" id="2">
+
+        <br/>
+        <br/>
+
+        <label for="3">Enter password: </label>
+        <input type="text" id="3" value="123">
+
+        <br/>
+        <br/>
+
+        <label for="4">Enter username: </label>
+        <input type="text" id="4" placeholder="abc@gmail.com">
+
+        <br/>
+        <br/>
+        
+        <input type="submit" value="Submit/Click here">
+        <button>button</button>
+    </form>
+    
+    <br/>
+    <br/>
+
+        <!-- form elements:
+        <input type="text">
+        <label for=""></label>
+        <select name="" id=""></select>
+        <option value=""></option>
+        <button></button>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <fieldset></fieldset>
+        <legend></legend> -->
+
+        
+        <form>
+            <fieldset>
+                <legend>Ye mara form</legend>
+
+                <label for="datepicker">Choose date: </label>
+                <input type="date" id="datepicker">
+                
+                <br/>
+                <br/>
+                
+                <label for="khaana kha lo">Choose dish: </label>
+                <select name="" id="khaana kha lo">
+                    <option value="maggi">Maggi</option>
+                    <option value="Kurkure">Kurkure</option>
+                    <option value="chips">Chips</option>
+                </select>
+                
+                <br/>
+                <br/>
+                
+                <textarea name="dabba-ka-naam" id="dabba-ki-id" cols="30" rows="10" placeholder="kuch toh likho ji"></textarea>
+                
+                <br/>
+                <br/>
+            </fieldset>
+        </form>
+
+    <!-- Input type:
+    <input type="text">
+    <input type="button">
+    <input type="radio">
+    <input type="checkbox">
+    <input type="file">
+    <input type="image">
+    <input type="password">
+    <input type="date"> -->
+    
+    <form>
+        <label for="text-id">Enter text: </label>
+        <input type="text" name="textfield" id="text-id">
+
+        <br><br>
+
+        <label for="button-id">Button: </label>
+        <input type="submit" name="button1" id="button-id" value="Press">
+
+        <br><br>
+        
+        <label for="radio-1">radio button 1: </label>
+        <input type="radio" name="radio1" id="radio-1">
+        
+        <label for="radio-2">radio button 2: </label>
+        <input type="radio" name="radio2" id="radio-2">
+        
+        <label for="radio-3">radio button 3: </label>
+        <input type="radio" name="radio3" id="radio-3">
+
+        <br><br>
+
+        <!-- The input elements with type="radio" create the radio buttons.
+        The id attribute associates each radio button with its corresponding label.
+        The name attribute is the key to grouping the radio buttons together. All radio buttons with the same name attribute are part of the same group, and the user can only select one option from the group.
+        The value attribute is the value that gets submitted to the server when the form is submitted. -->
+        <input type="radio" id="option1" name="group1" value="option1">
+        <label for="option1">Option 1</label>
+
+        <input type="radio" id="option2" name="group1" value="option2">
+        <label for="option2">Option 2</label>
+
+        <input type="radio" id="option3" name="group1" value="option3">
+        <label for="option3">Option 3</label>
+
+        <br><br>
+        
+        <label for="checkbox-1">English: </label>
+        <input type="checkbox" name="checkbox1" id="checkbox-1">
+        
+        <label for="checkbox-2">Hindi: </label>
+        <input type="checkbox" name="checkbox2" id="checkbox-2">
+        
+        <br><br>
+        
+        <label for="file-1">Upload: </label>
+        <input type="file" name="file1" id="file-1">
+        
+        <br><br>
+        
+        <label for="image-1">Image wala button: </label>
+        <input type="image" src="C:\Users\saura\OneDrive\Pictures\Camera Roll\WIN_20201224_11_24_14_Pro.jpg" alt="click here" name="image1" id="image-1" width="50px" height="30px">
+        
+        <br><br>
+        
+        <label for="pass-1">Enter password:</label>
+        <input type="password" name="pass1" id="pass-1">
+        
+        <br><br>
+
+        <label for="datepicker">Choose date: </label>
+        <input type="date" id="datepicker">
+    </form>
+</body>
+</html>

@@ -1,0 +1,23 @@
+.hero_section {
+    background-image: url(./hero_image.jpg);
+    background-size: cover;
+    height: 600px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.introMsg {
+    background-color: white;
+    height: 20px;
+    width: 1450px;
+    font-size: 14px;
+    /* font-weight: 700; */
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 14px!important;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

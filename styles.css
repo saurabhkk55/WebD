@@ -1,0 +1,20 @@
+/* Your CSS styles go here */
+body {
+    background-color: white;
+}
+
+h1 {
+    /* background-color: #3f3e3e; */
+    color: black;
+    padding: 5px;
+}
+
+.div-1 {
+    /* background-color: #ffffff; */
+    color: rgb(0, 0, 0); /* Example style */
+}
+
+.h1-span {
+    background-color: rgb(57, 148, 227);
+    padding: 5px;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body">
+    <div class="navBar">
+        <div id="itemHover">
+            <a href="https://google.com">
+                <img src="./amazon_logo.png" alt="image not found" class="amazonLogo_url">
+            </a>
+        </div>
+
+        <div class="serviceLocation" id="itemHover">
+            <span class="upperFont" id="destinationPointer">Deliver to</span>
+            <span class="lowerFont"><i class="fa-solid fa-location-dot"></i> India</span>
+        </div>
+
+        <div class="searchProducts">
+            <div>
+                <label for="productList"></label>
+                <select name="availableProducts" id="productList" class="amazonProducts">
+                    <option value="all">All</option>
+                    <option value="electronics">Electronics</option>
+                    <option value="clothes">Clothes</option>
+                    <option value="wooden">Wooden</option>
+                    <option value="dold">Gold</option>
+                    <option value="books">Books</option>
+                </select>
+            </div>
+            <div>
+                <input type="text" placeholder="Search Amazon" class="userChoiceProduct">
+            </div>
+            <div class="searchIcon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+
+        <div class="location" id="itemHover">
+            <span><i class="fa-solid fa-globe" id="globeIcon"></i></span>
+            <span>
+                <label for="countryList"></label>
+                <select name="countries" id="countryList">
+                    <option value="india">IN</option>
+                    <option value="usa">USA</option>
+                    <option value="japan">Japan</option>
+                </select>
+            </span>
+        </div>
+
+        <div class="signIn_orders" id="itemHover">
+            <span class="upperFont">Hello, sign in</span>
+            <span class="lowerFont">Account & Lists</span>
+        </div>
+
+        <div class="signIn_orders" id="itemHover">
+            <span class="upperFont">Returns</span>
+            <span class="lowerFont">& Orders</span>
+        </div>
+
+        <div class="cart" id="itemHover">
+            <span><i class="fa-solid fa-cart-shopping" id="cartIcon"></i></span>
+            <span class="cartFont">Cart</span>
+        </div>
+    </div>
+
+    <!-- Second footer -->
+    <div class="direct_options">
+        <div class="menuBar">
+            <i class="fa-solid fa-bars"></i>
+            <span>All</span>
+        </div>
+        <div class="menuBar">Today's Deals</div>
+        <div class="menuBar">Customer Service</div>
+        <div class="menuBar">Registry</div>
+        <div class="menuBar">Gift cards</div>
+        <div class="menuBar">Sell</div>
+    </div>
+
+    <!-- Main body -->
+    <div class="hero_section">
+        <div class="introMsg"><p>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. Click here to go to amazon.in</p></div>
+        <div></div>
+    </div>
+</body>
+</html>

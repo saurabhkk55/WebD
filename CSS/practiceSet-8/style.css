@@ -1,0 +1,20 @@
+div {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    border: 10px solid orange;
+    border-top: 10px solid green;
+    background-color: lightslategray;
+    /* animation-timing-function: ; */
+    animation: loaderRing 700ms linear 0s infinite normal
+    
+}
+
+@keyframes loaderRing {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
