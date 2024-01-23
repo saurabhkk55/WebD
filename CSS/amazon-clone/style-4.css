@@ -1,0 +1,13 @@
+.shopping {
+    background-color: lightpink;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    background-color: yellow;
+    width: 340px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
