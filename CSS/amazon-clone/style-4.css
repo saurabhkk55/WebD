@@ -3,7 +3,7 @@
     display: flex;
     flex-wrap: wrap;
     /* width: 1480px; */
-    margin-left: 11px;
+    /* margin-left: 11px; */
     padding-top: 20px;
     justify-content: space-around;
     row-gap: 20px;
@@ -11,7 +11,7 @@
 
 .item {
     background-color: yellow;
-    width: 340px;
+    width: 350px;
     height: 385px;
 }
 
