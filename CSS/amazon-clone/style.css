@@ -2,6 +2,10 @@
 @import url(./style-3.css);
 @import url(./style-4.css);
 
+.bodyContent {
+    font-family: Arial,sans-serif;
+}
+
 .navBar {
     color: white;
     height: 60px;
