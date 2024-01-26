@@ -28,7 +28,7 @@
 }
 
 .product{
-    width: 170px;
+    width: 50%;
     height: 125px;
     display: flex;
     flex-direction: column;
@@ -36,7 +36,6 @@
 
 .productFrame {
     background-size: cover;
-    width: 170px;
     height: 120px;
 }
 
